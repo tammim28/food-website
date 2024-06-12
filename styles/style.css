@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    list-style-type: none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* banner section style start */
+.banner {
+    display: flex;
+    width: 95%;
+    height: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.banner-left {
+    width: 400px;
+}
+
+.banner-middle img {
+    width: 170px;
+    height: 200px;
+}
+
+.combo-img {
+    width: 700px;
+    height: 750px;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+.banner-icon {
+    display: flex;
+    border-radius: 31.5px;
+    background: rgb(245, 221, 196);
+    width: 270px;
+    height: 63px;
+    justify-content: space-around;
+}
+
+.banner-icon p {
+    color: rgb(244, 142, 40);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-heading {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.banner-heading h1 span {
+    color: rgb(244, 142, 40);
+}
+
+.banner-text p {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-order {
+    display: flex;
+    width: 608px;
+    height: 88px;
+}
+
+.banner-order .btn-primary {
+    border-radius: 15px;
+
+    background: linear-gradient(180.00deg, rgb(239, 171, 104), rgb(244, 142, 40) 100%);
+    width: 100px;
+    height: 86px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    border: none;
+}
+
+.banner-order h6 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+
+}
+
+/* banner style end */
+
+/* time section start */
+#time {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    border-radius: 50px;
+
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+
+#time h6 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 5px;
+}
+
+#time p {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+#time i {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+/* time section end */
+
+/* items section start */
+
+.food-chart {
+    width: 300px;
+    height: 200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.food-heading {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 7px;
+}
+
+.food-heading h5 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.food-review {
+    display: flex;
+}
+
+.food-price {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.food-btn {
+    border-radius: 35px;
+    background: rgb(244, 142, 40);
+    width: 150px;
+    height: 40px;
+    padding: 10px 10px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#container-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#container-heading p {
+    color: rgb(244, 142, 40);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#container-heading h3 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.see-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 45px;
+    margin: 0 auto;
+
+    background: rgb(244, 142, 40);
+    width: 180px;
+    height: 60px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* items section end */
+
+/* favorite food section start */
+.choose-food {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.quality-food {
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 35px;
+    background: rgb(255, 255, 255);
+    width: 380px;
+    height: 380px;
+    padding: 60px 30px;
+}
+
+.quality-food img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.quality-food h6 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.quality-food p {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.favorite-food {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.favorite-food p {
+    color: rgb(244, 142, 40);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.favorite-food h3 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* favorite food section end */
+
+/* client section start */
+.client-heading {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.client-heading p {
+    color: rgb(244, 142, 40);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.client-heading h6 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#client {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.client-info {
+    width: 500px;
+    height: 400px;
+}
+
+.client-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.client-img p {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.client-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.client-text {
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.client-food {
+    width: 200px;
+    height: 400px;
+}
+
+.client-food img {
+    width: 600px;
+    height: 400px;
+}
+
+/* client section end */
+
+/* newsletter section start */
+.newsletter {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 50px;
+    background: rgb(0, 0, 0);
+}
+
+.letter-img {
+    width: 500px;
+    height: 340px;
+}
+
+.letter-input {
+    width: 500px;
+    height: 340px;
+    padding-left: 50px;
+}
+
+.letter-input h3 {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.letter-input p {
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.form-box {
+    padding: 10px;
+    border-radius: 15px;
+    background: rgb(255, 255, 255);
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: whitesmoke;
+
+}
+
+.form-box button {
+    border-radius: 15px;
+    background: rgb(244, 142, 40);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+/* newsletter section end */
+
+/* footer section start */
+.footer {
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.footer h3 {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.footer p {
+    color: rgb(182, 182, 182);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    padding-top: 5px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-icon i {
+    color: rgb(244, 142, 40);
+    padding-left: 9px;
+}
+
+#footer {
+    width: 90%;
+    margin: 0 auto;
+}
+/* finish footer section */
